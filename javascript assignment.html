@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+    <script>
+        function isValid()
+        {
+            console.log('ammad');
+            x=document.getElementById('password').value.length
+
+            y=document.getElementById('name').value.length
+            if(y==0)
+            {
+                alert("name is required");
+                return 0
+            }
+            if(x<6)
+            {
+                alert("password is too short.")
+
+            }
+            
+         
+
+            
+           
+        }
+    </script>  
+    
+</head>
+<body>
+    <h1 style="text-align: center; ">sign up form</h1>
+    <label for="name">name</label>
+    <input type="text" id="name" ><br><br>
+    <label for="password">password</label>
+    <input  type="password" name="password" id="password" ><br><br>
+    <button type="submit"  onclick="isValid()">sign up</button>
+  
+</body>
+</html>

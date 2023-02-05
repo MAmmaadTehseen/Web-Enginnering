@@ -1,5 +1,5 @@
 # Data-structures
-- 👋 Hi, I’m @**AmmaadTehseen**
+- 👋 Hi, I’m @***AmmaadTehseen***
 - 🌱 I’m currently learning **BsIT**
 - This repositery contaions all the assignments related to the **Data structure and Algorithm course**.
 - 📫 How to reach me on *fb*(https://www.facebook.com/ammaadkhaan/)
